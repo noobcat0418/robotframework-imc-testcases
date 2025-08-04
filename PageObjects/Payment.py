@@ -1,0 +1,1 @@
+button_download = "//button[text()='Download Receipt']"
