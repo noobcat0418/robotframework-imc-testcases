@@ -138,10 +138,6 @@ Test execution reports are automatically generated in the `reports/` directory:
 4. Push to the branch (`git push origin feature/new-test`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 📧 Contact
 
 - GitHub: [@noobcat0418](https://github.com/noobcat0418)
