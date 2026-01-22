@@ -1,19 +1,19 @@
-# 🧪 IMC End-to-End Test Cases
+# Robotframeowork IMC End-to-End Test Cases
 
 Automated end-to-end test suite for the IMC application.
 
-## 📋 Overview
+## Overview
 
 This project contains comprehensive E2E test cases for the IMC application, ensuring all critical user flows and functionalities work as expected.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework:** [Robot Framework]
 - **Language:** [Python]
 - **Test Runner:** [Robotframework builtin]
 - **Reporting:** [HTML Reports]
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 IMC-Testcases/
@@ -37,7 +37,7 @@ IMC-Testcases/
 └── README.md
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -87,7 +87,7 @@ pytest -v
 pytest --html=reports/report.html
 ```
 
-## ✅ Test Coverage
+## Test Coverage
 
 | Module | Test Cases | Description |
 |--------|------------|-------------|
@@ -96,7 +96,7 @@ pytest --html=reports/report.html
 | [Module 3] | [Test cases] | [Description] |
 | [Module 4] | [Test cases] | [Description] |
 
-## 🏷️ Test Markers
+## Test Markers
 
 ```bash
 # Run smoke tests (critical path)
@@ -109,7 +109,7 @@ pytest -m "regression"
 pytest -m "authentication"
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 Update the configuration in `config.py` or `.env`:
 
@@ -120,17 +120,17 @@ HEADLESS = False
 IMPLICIT_WAIT = 10
 ```
 
-## 📊 Reports
+## Reports
 
 Test execution reports are automatically generated in the `reports/` directory:
 - **HTML Report:** Detailed test results with pass/fail status
 - **Screenshots:** Captured on test failures for debugging
 
-## 🔗 Related Repositories
+## Related Repositories
 
 - [IMC Application](https://github.com/noobcat0418/IMC) - Main application repository
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/new-test`)
@@ -138,6 +138,6 @@ Test execution reports are automatically generated in the `reports/` directory:
 4. Push to the branch (`git push origin feature/new-test`)
 5. Open a Pull Request
 
-## 📧 Contact
+## Contact
 
 - GitHub: [@noobcat0418](https://github.com/noobcat0418)
